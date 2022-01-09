@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+    <script src="https://kit.fontawesome.com/2bef200a9d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<header >
+    <div class="container flex justify-between">
+    <div class="flex-40">
+        <a href="home.html">
+            <h1>1Shaan Calisthenics</h1>
+        </a>
+    </div>
+    <div>
+        <label class="bars" for="toggle">
+            <i class="fas fa-bars"></i>
+        </label>
+        <input id="toggle" type="checkbox" >
+        <nav class="nav-bar">
+            <ul class="flex flex-col-responsive">
+                <li>
+                    <a href="home.html">home </a>
+                </li>
+                <li>
+                    <a href="about.html">about</a>
+                </li>
+                <li>
+                    <a href="programs.html">programs</a>
+                </li>
+                <li>
+                    <a href="myaccount.html">my account</a>
+                </li>       
+                <li>
+                    <a href="myaccount.html">signup</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+   
+
+</div>
+
+</header>
+<main>
+    <section class="hero account-sec">
+        <figure>
+            <img id="background-image" class="width-full" src="media/images/images_calis/IMG_1475.JPG">
+        </figure>
+        <div class="flex-column center hero-text ">
+            <h2>my account</h2>
+            <h3>signup</h3>
+            <form class="myaccount-form-signup flex-column"> 
+                  <div class="flex-50 flex">
+                    <!-- <label for="firstname">first name :</label> -->
+                    <input type="text" name="firstname" placeholder="firstname">
+                    <!-- <label for="lastname">last name :</label> -->
+                    <input type="text" name="lastname" placeholder="last name">
+                  </div>
+                  <div class="flex-50 flex">
+                    <!-- <label for="number">phone number:</label> -->
+                    <input type="password" name="number" placeholder="enter password">
+                    <!-- <label for="date">enter birth-date:</label> -->
+                    <input type="date" name="date" placeholder="enter birth-date">           
+                  </div> 
+                    
+                 <div class="flex-50 flex">
+                    <!-- <label for="password">enter password:</label> -->
+                    <input type="password" name="password" placeholder="password">
+                    <!--<label for="password">reenter password:</label>-->
+                    <input type="password" name="password" placeholder="re-enter password">
+                    
+                </div>
+                <div class="flex align-center">
+                    <div class="flex-100 flex">
+                        <label for="remmember">remmember password:</label>
+                        <input type="checkbox" name="remmember">
+                    </div> 
+             </div>
+                   
+                    
+
+            </form>
+            
+           
+         </div>
+        <div class="flex-column center hero-text">
+            <h3>login</h3>
+            
+            <form class="myaccount-form-login flex-column"> 
+               
+                    <label for="username">username or email address :</label>
+                    <input type="text" name="username">
+                
+                    <label for="password">password:</label>
+                    <input type="password" name="password">
+                    <div class="flex align-center">
+                   <label for="remmember">remmember password:</label>
+                    <input type="checkbox" name="remmember">
+                    </div>
+                    
+              <a href="#">forgot password?</a>      
+
+            </form>
+            
+           
+         </div>
+
+    </section>
+</main>
+<footer class=" footer flex-column center justify-between">
+    <nav class="flex">
+        <a href="#">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#">
+            <i class="far fa-envelope"></i>
+        </a>
+    </nav>
+    <p>@2022 all rights reserved</p>
+   
+</footer>
+</body>
+</html>    
+    
