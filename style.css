@@ -389,7 +389,7 @@ p{
 }
 .myaccount-form-login {
     background-color: #ffff;
-    padding:3rem 9rem 2rem 9rem;
+    padding:3rem;
     text-transform: capitalize;
     font-weight: 600;
     font-size: 1.2rem;
@@ -400,8 +400,15 @@ p{
 label,input {
     margin: 0.3rem;
     width: 100%;
+    text-transform: capitalize;
 }
-input {
+
+input{
+    padding: 1rem;
+    margin-bottom: 1.2rem;
+    margin-right: 0;  
+}
+.input-first-name {
     padding: 1rem;
     margin-bottom: 1.2rem;
     margin-right: 2rem;
@@ -412,10 +419,13 @@ margin-top: 1.4rem;
 font-weight: 600;
 }
 .myaccount-form-signup a {
-    margin:3rem 0 0 0;
+    margin:1rem 0 0 0;
     text-transform: capitalize;
-    color: #416e45;
+    color: #ffff;
     font-size: 1rem;
+}
+.signup-btn:hover {
+    box-shadow: 2px 10px 11px 12px rgb(233, 229, 229);
 }
 .myaccount-form-login a {
     margin:3rem 0 0 0;
